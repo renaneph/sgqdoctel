@@ -10,6 +10,7 @@ class Conta_arquivos_departamento extends Model
     use HasFactory;
 
     protected $fillable = [
+        'id',
         'nome_departamento',
         'qtd_arquivos',
     ];
